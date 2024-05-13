@@ -19,44 +19,11 @@ First, you will clone this repository in your IDE of choice
  ```bash
   git clone https://github.com/bc-fullstack-04/sameque-ananias-frontend
  ```
-You will open the project and in the terminal you will give these commands to install the TailWind Framework:
+You will open the project and in the terminal give this command to download all project dependencies
 ```bash
-npm install -D tailwindcss postcss autoprefixer
+npm install or npm i
 ```
+To run the project, you will give this command in the terminal:
 ```bash
-npx tailwindcss init -p
+npm run dev
 ```
-```bash
-npx tailwindcss build styles.css -o output.css
-```
-```bash
-npx tailwindcss build styles.css -o global.css
-```
-```bash
-npx tailwindcss build global.css -o output.css
-```
-After that, you will install axios, to open the connections with the back-end:
-```bash
-npm install axios
-```
-## Install the Libraries:
-Library for the album carousel:
-```bash
-npm install react-slick slick-carousel
-```
-```bash
-npm install react-router-dom
-```
-```bash
-npm i react-modal
-```
-```bash
-npm i --save-dev @types/react-slick
-```
-```bash
-npm i --save-dev @types/react-modal
-```
-```bash
-npm install --save react-toastify
-```
-
