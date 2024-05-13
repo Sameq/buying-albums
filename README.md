@@ -14,7 +14,7 @@ This project is a front-end album sales system developed with TipeScript, JavaSc
 For you to have a cool experience with the project interface, you have to have the backend part on your PC, there you will have access to the README, where you can find step-by-step instructions on how to upload the backend application
 - https://github.com/bc-fullstack-04/sameque-ananias-backend
 
-##How to run the application:
+## How to run the application:
 First, you will clone this repository in your IDE of choice
  ```bash
   git clone https://github.com/bc-fullstack-04/sameque-ananias-frontend
@@ -40,3 +40,22 @@ After that, you will install axios, to open the connections with the back-end:
 npm install axios
 ```
 ## Install the Libraries:
+```bash
+npm install react-slick slick-carousel
+```
+```bash
+npm install react-router-dom
+```
+```bash
+npm i react-modal
+```
+```bash
+npm i --save-dev @types/react-slick
+```
+```bash
+npm i --save-dev @types/react-modal
+```
+```bash
+npm install --save react-toastify
+```
+
