@@ -2,7 +2,7 @@
 ## Album Selling System
 This project is a front-end album sales system developed with TipeScript, JavaScript and TailWind. The site allows users to create their own account and purchase any album they want, quickly and efficiently.
 
-##Prerequisites:
+## Prerequisites:
 - Vite
 - TypeScript
 - React
@@ -10,7 +10,7 @@ This project is a front-end album sales system developed with TipeScript, JavaSc
 - Shadcn
 - Axios
 
-##BackEnd repository:
+## BackEnd repository:
 For you to have a cool experience with the project interface, you have to have the backend part on your PC, there you will have access to the README, where you can find step-by-step instructions on how to upload the backend application
 - https://github.com/bc-fullstack-04/sameque-ananias-backend
 
@@ -35,3 +35,8 @@ npx tailwindcss build styles.css -o global.css
 ```bash
 npx tailwindcss build global.css -o output.css
 ```
+After that, you will install axios, to open the connections with the back-end:
+```bash
+npm install axios
+```
+## Install the Libraries:
