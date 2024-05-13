@@ -15,15 +15,21 @@ For you to have a cool experience with the project interface, you have to have t
 - https://github.com/bc-fullstack-04/sameque-ananias-backend
 
 ## How to run the application:
-First, you will clone this repository in your IDE of choice
+First, clone this repository in your IDE of choice
  ```bash
   git clone https://github.com/bc-fullstack-04/sameque-ananias-frontend
  ```
-You will open the project and in the terminal give this command to download all project dependencies
+Open the project and in the terminal give this command to download all project dependencies
 ```bash
 npm install or npm i
 ```
-To run the project, you will give this command in the terminal:
+To run the project, enter this command in the terminal:
 ```bash
 npm run dev
 ```
+# Functionalities
+- Login
+- Signup
+- Search album or music ou arctist
+- Sale album
+- Purchased albums
