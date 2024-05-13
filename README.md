@@ -1,5 +1,5 @@
-#BootCamp Sysmap 2024
-##Album Selling System
+# BootCamp Sysmap 2024
+## Album Selling System
 This project is a front-end album sales system developed with TipeScript, JavaScript and TailWind. The site allows users to create their own account and purchase any album they want, quickly and efficiently.
 
 ##Prerequisites:
