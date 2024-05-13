@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+#BootCamp Sysmap 2024
+##Album Selling System
+This project is a front-end album sales system developed with TipeScript, JavaScript and TailWind. The site allows users to create their own account and purchase any album they want, quickly and efficiently.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Prerequisites:
+- Vite
+- TypeScript
+- React
+- TailWindCSS
+- Shadcn
+- Axios
 
-Currently, two official plugins are available:
+##BackEnd repository:
+For you to have a cool experience with the project interface, you have to have the backend part on your PC, there you will have access to the README, where you can find step-by-step instructions on how to upload the backend application
+- https://github.com/bc-fullstack-04/sameque-ananias-backend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+##How to run the application:
+First, you will clone this repository in your IDE of choice
+ ```bash
+  git clone https://github.com/bc-fullstack-04/sameque-ananias-frontend
+ ```
+You will open the project and in the terminal you will give these commands to install the TailWind Framework:
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npx tailwindcss build styles.css -o output.css
+npx tailwindcss build styles.css -o global.css
+npx tailwindcss build global.css -o output.css
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
