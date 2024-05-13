@@ -40,7 +40,7 @@ After that, you will install axios, to open the connections with the back-end:
 npm install axios
 ```
 ## Install the Libraries:
-### Library for the album carousel:
+Library for the album carousel:
 ```bash
 npm install react-slick slick-carousel
 ```
