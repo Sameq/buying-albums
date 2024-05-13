@@ -22,8 +22,16 @@ First, you will clone this repository in your IDE of choice
 You will open the project and in the terminal you will give these commands to install the TailWind Framework:
 ```bash
 npm install -D tailwindcss postcss autoprefixer
+```
+```bash
 npx tailwindcss init -p
+```
+```bash
 npx tailwindcss build styles.css -o output.css
+```
+```bash
 npx tailwindcss build styles.css -o global.css
+```
+```bash
 npx tailwindcss build global.css -o output.css
 ```
