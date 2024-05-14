@@ -34,7 +34,7 @@ npm run dev
 - Sale album
 - Purchased albums
 # Demonstration video of the project:
-Video starts in 4 seconds
+- Video starts in 4 seconds
 https://github.com/bc-fullstack-04/sameque-ananias-frontend/assets/117094818/1cc5853e-13c4-4645-9a71-b691800b1460
 
 
